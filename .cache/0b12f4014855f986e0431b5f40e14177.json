@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./index.js","dynamic":true}],"generated":{"html":"<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n  </head>\n  <body>\n    <div id=\"root\"></div>\n    <script src=\"/dist/reblog.js\"></script>\n  </body>\n</html>\n"},"hash":"5a17c8693b5ff58d1952a25c713a6053","cacheData":{}}

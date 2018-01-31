@@ -6,8 +6,6 @@ import styles from './App.scss';
 
 const { Header, Content, Footer } = Layout;
 
-console.log('styles', styles);
-
 const App = (props) => (
   <Layout>
     <Header className={styles.header}>

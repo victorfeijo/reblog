@@ -2,22 +2,24 @@ import React from 'react';
 
 import { Layout } from 'antd';
 
-import './App.scss';
+import styles from './App.scss';
 
 const { Header, Content, Footer } = Layout;
 
+console.log('styles', styles);
+
 const App = (props) => (
   <Layout>
-    <Header className="header">
+    <Header className={styles.header}>
       Info about blog
     </Header>
-    <Content className="content">
-      <div className="content__post">
+    <Content className={styles.content}>
+      <div className={styles.content__post}>
         <h1>Blog title</h1>
         blog content
       </div>
     </Content>
-    <Footer className="footer">
+    <Footer className={styles.footer}>
       Feijo blog ©2016
     </Footer>
   </Layout>

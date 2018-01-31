@@ -7,12 +7,15 @@
   "author": "Victor Feijo <victor.feijoa@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "parcel index.html --port 3000",
+    "start": "parcel index.html --port 3000 --no-hmr",
     "lint": "eslint --ext .js app"
   },
   "dependencies": {
     "antd": "^3.1.6",
+    "autoprefixer": "^7.2.5",
     "babel-plugin-import": "^1.6.3",
+    "less": "^2.7.3",
+    "postcss-modules": "^1.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },

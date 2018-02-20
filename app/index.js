@@ -6,12 +6,11 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import MainPage from './components/MainPage';
 import store from './store';
 
-const Root = (props) => (
+const Root = () => (
   <Provider store={store}>
     <BrowserRouter>
       <div>
         <Route exact path="/" component={MainPage} />
-        <Route path="/lele" component={MainPage} />
       </div>
     </BrowserRouter>
   </Provider>

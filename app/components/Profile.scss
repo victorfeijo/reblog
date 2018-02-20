@@ -1,0 +1,20 @@
+.profile {
+  background-color: #4C566A;
+  padding: 16px 0;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.info {
+  color: #E5E9F0;
+  font-weight: 400;
+}
+
+.info__col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

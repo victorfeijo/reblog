@@ -7,7 +7,7 @@
   "author": "Victor Feijo <victor.feijoa@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "parcel index.html --port 3000 --no-hmr",
+    "start": "parcel index.html --port 3000",
     "build": "parcel build index.html -d dist  --public-url ./",
     "lint": "eslint --ext .js app"
   },

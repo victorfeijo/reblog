@@ -17,11 +17,11 @@ const posts = [
 
 const PostList = () => (
   <List
-    style={{ marginTop: '30px' }}
+    style={{ marginTop: '50px' }}
     dataSource={posts}
     renderItem={item => (
       <Row type="flex" justify="center">
-        <Col xs={20} md={20} lg={12}>
+        <Col xs={18} md={18} lg={14} xl={12} xxl={10} >
           <Row>
             <h1 className={styles.title}>{ item.title }</h1>
           </Row>

@@ -6,11 +6,8 @@ import someStyle from './variables.scss';
 
 const posts = [
   {
+    id: 'simply_react_redux_apps_with_selectors',
     title: 'Simplificando sua aplicação React/Redux com selectors',
-    description: 'Utilizar React juntamente com o Redux é uma boa pratica para gerenciar o estado da aplicação. Entretanto, a maneira que os dados são estruturados no estado do redux podem acabar gerando um overhead de lógica dos componentes React, aumentando sua complexidade. O conceito de selectors vem justamente para simplicar a conexão entre os dados que vem do store do redux e os componentes React.'
-  },
-  {
-    title: 'Simplificando sua aplicação Redux com selectors',
     description: 'Utilizar React juntamente com o Redux é uma boa pratica para gerenciar o estado da aplicação. Entretanto, a maneira que os dados são estruturados no estado do redux podem acabar gerando um overhead de lógica dos componentes React, aumentando sua complexidade. O conceito de selectors vem justamente para simplicar a conexão entre os dados que vem do store do redux e os componentes React.'
   },
 ];

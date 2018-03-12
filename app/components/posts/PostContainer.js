@@ -1,15 +1,13 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 
-const postsComponents = {
-  simplify_react_redux_apps_with_selectors: (<div>Reselect!</div>),
-};
+import ReduxAppsWithSelectors from './ReduxAppsWithSelectors';
 
 const PostContainer = ({ match }) => {
   return (
     <div>
-      { match.url }
-      { postsComponents[match.params.postId] }
+      <div> some boilerplate </div>
+      <Route path={`${match.url}/redux-apps-with-selectors`} component={ReduxAppsWithSelectors} />
     </div>
   );
 };

@@ -12,7 +12,7 @@ const Root = () => (
     <BrowserRouter>
       <div>
         <Route exact path="/" component={MainPage} />
-        <Route exact path="/posts/:postId" component={PostContainer} />
+        <Route path="/posts" component={PostContainer} />
       </div>
     </BrowserRouter>
   </Provider>
